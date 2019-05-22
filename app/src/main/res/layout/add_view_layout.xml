@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    >
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/resturantNameViewID"
+                android:text="Res Name"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:textColor="@color/background"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginTop="10dp"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:gravity="center"
+
+                />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:id="@+id/resturantImageViewID"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/resturantOfferTitleViewID"
+                android:text="OFFER TITLE"
+                android:textSize="20dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/resturantOfferPriceViewID"
+                android:text="OFFER TITLE"
+                android:textSize="15dp"
+                android:fontFamily="serif"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:layout_marginTop="10dp"
+                >
+                <Button
+                    android:id="@+id/deailsID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@color/background"
+                    android:textStyle="bold"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Details"
+                    />
+                <Button
+                    android:id="@+id/bookmarkID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@color/background"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:text="Bookmark"
+                    />
+
+            </LinearLayout>
+
+
+
+</LinearLayout>

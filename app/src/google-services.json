@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "409608112843",
+    "firebase_url": "https://offerchaifoodblog.firebaseio.com",
+    "project_id": "offerchaifoodblog",
+    "storage_bucket": "offerchaifoodblog.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409608112843:android:fa6c40f878654a61",
+        "android_client_info": {
+          "package_name": "com.example.syedrifatahsan.offerchaifoodblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409608112843-o7kk9ui4cfp8u5vjojn59t29l0oki6pq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.syedrifatahsan.offerchaifoodblog",
+            "certificate_hash": "2669f3925c634129438126554d7488f0e75c176d"
+          }
+        },
+        {
+          "client_id": "409608112843-as0cgle0qfcav1ucattul7qckortkleo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoQGqj7uw5I1tamD53S7Ona8p2izUi68U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409608112843-as0cgle0qfcav1ucattul7qckortkleo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp"
+        >
+
+    <EditText
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/restaurantNameID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Restaurant Name" />
+    <EditText
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/ownerNameID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Owner Name" />
+
+    <EditText
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/addressID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Full Address" />
+    <EditText
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/lisenceID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Email Address" />
+
+
+    <EditText
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/resPasswordID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="password"/>
+
+    <EditText
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/resPasswordID2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="confirm password"/>
+
+
+    <Spinner
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/citySpinnerID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        >
+
+    </Spinner>
+
+    <Spinner
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/areaSpinnerID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        >
+
+    </Spinner>
+
+
+    <Button
+        android:id="@+id/resPicUpID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Up"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/background"
+        android:textStyle="bold"
+        android:text="Upload Pic" />
+
+    <ImageView
+        android:id="@+id/imageViewRes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+        <Button
+            android:id="@+id/locationpick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="pickLocation"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/background"
+            android:textStyle="bold"
+            android:text="Pic Location On Map" />
+
+    <Button
+        android:id="@+id/resRegisterID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="registerRes"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/background"
+        android:textStyle="bold"
+        android:text="Register" />
+
+    </LinearLayout>
+
+</ScrollView>

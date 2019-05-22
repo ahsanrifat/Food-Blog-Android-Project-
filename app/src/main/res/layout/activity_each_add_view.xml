@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eachAddViewOfferTitleID"
+        android:text="Res Name"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textColor="@color/background"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="10dp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:gravity="center"
+
+        />
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/eachAddViewImageID"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eachAddViewBundleID"
+        android:text="OFFER TITLE"
+        android:textSize="20dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eachAddViewResOfferTitleID"
+        android:text="Res Name"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textColor="@color/background"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="10dp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:gravity="center"
+
+        />
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/eachAddViewResImageID"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eachAddViewResBundleID"
+        android:text="OFFER TITLE"
+        android:textSize="20dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+
+</LinearLayout>
+
+
+</ScrollView>

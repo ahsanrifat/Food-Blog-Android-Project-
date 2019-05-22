@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">OfferChai(Food Blog)</string>
+    <string-array name="city">
+        <item>Dhaka</item>
+    </string-array>
+    <string-array name="area">
+        <item>Khilgaon</item>
+        <item>Banani</item>
+        <item>Dhanmondi</item>
+    </string-array>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Food Blog</string>
+    <string name="nav_header_subtitle"></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_location_picker">Map</string>
+    <string name="title_activity_home_page">HomePage</string>
+</resources>

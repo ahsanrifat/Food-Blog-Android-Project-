@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+
+    <EditText
+        android:id="@+id/addTitleID"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Add Title" />
+
+    <EditText
+        android:id="@+id/addPriceID"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Price" />
+
+    <EditText
+        android:id="@+id/addDescriptionID"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Description"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addBannerID"
+        />
+
+        <Button
+            android:id="@+id/profilePicID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Up"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/background"
+            android:textStyle="bold"
+            android:text="Upload Photo" />
+
+
+
+    <Button
+        android:id="@+id/signupID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addPublish"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/background"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:text="Publish Add" />
+
+    </LinearLayout>
+</ScrollView>
